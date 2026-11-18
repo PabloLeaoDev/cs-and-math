@@ -1,7 +1,7 @@
 #ifndef ADDERS_H
 #define ADDERS_H
 
-#include "01_gates.h"
+#include <gates/01_gates.h>
 
 typedef struct {
   bit_t sum;

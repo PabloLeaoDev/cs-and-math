@@ -1,4 +1,4 @@
-#include "02_adders.h"
+#include <adders/02_adders.h>
 
 typedef struct {
   bit_t result;

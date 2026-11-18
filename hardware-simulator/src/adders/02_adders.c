@@ -1,4 +1,4 @@
-#include "02_adders.h"
+#include <adders/02_adders.h>
 
 AdderResult half_adder(bit_t a, bit_t b) {
   AdderResult res;
