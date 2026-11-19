@@ -16,3 +16,17 @@ AdderResult full_adder(bit_t a, bit_t b, bit_t carry_in) {
   res.carry = gate_or(ha1.carry, ha2.carry);
   return res;
 }
+
+AdderResult8 ripple_adder_8bit(bus8_t a, bus8_t b, bit_t carry_in) {
+  AdderResult8 res;
+  bit_t current_carry = carry_in;
+
+  for (int i = 0; i < 8; i++) {
+    AdderResult step = full_adder(a.bits[i], b.bits[i], current_carry);
+    res.sum.bits[i] = step.sum;
+    current_carry = step.carry;
+  }
+
+  res.carry_out = current_carry;
+  return res;
+}
