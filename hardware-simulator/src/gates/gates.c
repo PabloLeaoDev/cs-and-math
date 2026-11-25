@@ -1,4 +1,4 @@
-#include <gates/01_gates.h>
+#include <gates/gates.h>
 
 bit_t gate_not(bit_t a) { return (~a); }
 bit_t gate_and(bit_t a, bit_t b) { return (a & b); }

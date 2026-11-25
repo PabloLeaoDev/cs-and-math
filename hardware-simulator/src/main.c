@@ -1,7 +1,7 @@
-#include <adders/02_adders.h>
-#include <alu/03_alu.h>
-#include <busbar/00_bus.h>
-#include <registers/04_registers.h>
+#include <adders/adders.h>
+#include <alu/alu.h>
+#include <busbar/bus.h>
+#include <registers/registers.h>
 #include <stdio.h>
 
 void ALUTester();

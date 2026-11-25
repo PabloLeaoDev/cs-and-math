@@ -1,8 +1,8 @@
 #ifndef REGISTERS_H
 #define REGISTERS_H
 
-#include <busbar/00_bus.h>
-#include <gates/01_gates.h>
+#include <busbar/bus.h>
+#include <gates/gates.h>
 
 typedef struct {
   bit_t q;        // current state

@@ -1,4 +1,4 @@
-#include <alu/03_alu.h>
+#include <alu/alu.h>
 
 ALUResult1Bit alu_1bit(bit_t a, bit_t b, bit_t carry_in, bit_t op0, bit_t op1) {
   bit_t res_and = gate_and(a, b);

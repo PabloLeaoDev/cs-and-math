@@ -1,4 +1,4 @@
-#include <busbar/00_bus.h>
+#include <busbar/bus.h>
 
 bus8_t uint8_to_bus(uint8_t val) {
   bus8_t bus;

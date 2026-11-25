@@ -1,7 +1,7 @@
 #ifndef BUS_H
 #define BUS_H
 
-#include <gates/01_gates.h>
+#include <gates/gates.h>
 
 typedef struct {
   bit_t bits[8]; // bits[0] = LSB, bits[7] = MSB
